@@ -1,0 +1,11 @@
+{% for item in sysfs_defaults + sysfs_extra %}
+{% if item.value | default(False) %}
+{{ item.name }} = {{ item.value }}
+{% endif %}
+{% if item.mode | default(False) %}
+mode {{ item.name }} = {{ item.mode }}
+{% endif %}
+{% if item.owner | default(False) %}
+owner {{ item.name }} = {{ item.owner }}
+{% endif %}
+{% endfor %}

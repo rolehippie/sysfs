@@ -1,0 +1,11 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    sysfs_defaults:
+      - name: kernel/mm/transparent_hugepage/enabled
+        value: never
+      - name: kernel/mm/transparent_hugepage/defrag
+        value: never
+  roles:
+    - role: sysfs

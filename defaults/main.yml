@@ -1,0 +1,29 @@
+# Standards: 0.1
+---
+# @var sysfs_defaults:description: List of global sysfs settings
+# @var sysfs_defaults:example: >
+# sysfs_defaults:
+#   - name: kernel/mm/transparent_hugepage/enabled
+#     value: never
+#   - name: kernel/mm/transparent_hugepage/defrag
+#     value: never
+#   - name: power/stat
+#     mode: 0660
+#     owner: root:power
+# @end
+sysfs_defaults: []
+
+# @var sysfs_extra:description: List of extra sysfs settings
+# @var sysfs_extra:example: >
+# sysfs_extra:
+#   - name: kernel/mm/transparent_hugepage/enabled
+#     value: never
+#   - name: kernel/mm/transparent_hugepage/defrag
+#     value: never
+#   - name: power/stat
+#     mode: 0660
+#     owner: root:power
+# @end
+sysfs_extra: []
+
+...

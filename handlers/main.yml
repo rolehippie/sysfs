@@ -1,0 +1,9 @@
+# Standards: 0.1
+---
+- name: Restart sysfsutils
+  systemd:
+    name: sysfsutils
+    state: restarted
+    daemon_reload: True
+
+...

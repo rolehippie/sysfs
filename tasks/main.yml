@@ -1,0 +1,31 @@
+# Standards: 0.1
+---
+- name: Install required packages
+  loop:
+    - sysfsutils
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - sysfs
+
+- name: Write config file
+  notify:
+    - Restart sysfsutils
+  template:
+    src: config.j2
+    dest: /etc/sysfs.conf
+  tags:
+    - sysfs
+
+- name: Start sysfsutils service
+  systemd:
+    name: sysfsutils
+    state: started
+    daemon_reload: True
+    masked: False
+    enabled: True
+  tags:
+    - sysfs
+
+...
