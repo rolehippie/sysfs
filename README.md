@@ -1,8 +1,14 @@
 # sysfs
 
-[![Build Status](https://cloud.drone.io/api/badges/rolehippie/sysfs/status.svg)](https://cloud.drone.io/rolehippie/sysfs)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/sysfs) [![Build Status](https://img.shields.io/drone/build/rolehippie/sysfs/master?logo=drone)](https://cloud.drone.io/rolehippie/sysfs) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/sysfs)](https://github.com/rolehippie/sysfs/blob/master/LICENSE) 
 
-Ansible role to configure sysfs
+Ansible role to configure sysfs settings. 
+
+## Sponsor 
+
+[![Proact Deutschland GmbH](https://proact.eu/wp-content/uploads/2020/03/proact-logo.png)](https://proact.eu) 
+
+Building and improving this Ansible role have been sponsored by my employer **Proact Deutschland GmbH**.
 
 ## Table of content
 
