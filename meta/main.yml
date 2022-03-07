@@ -20,6 +20,8 @@
 # None
 # @end
 galaxy_info:
+  role_name: sysfs
+  namespace: rolehippie
   author: Thomas Boerger
   description: Ansible role to configure sysfs settings
   license: Apache-2.0
