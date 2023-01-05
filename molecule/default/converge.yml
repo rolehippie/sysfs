@@ -9,6 +9,6 @@
       - name: kernel/mm/transparent_hugepage/defrag
         value: never
   roles:
-    - role: sysfs
+    - role: rolehippie.sysfs
 
 ...
