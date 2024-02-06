@@ -1,6 +1,6 @@
 ---
 - name: Restart sysfsutils
-  systemd:
+  ansible.builtin.systemd:
     name: sysfsutils
     state: restarted
     daemon_reload: True
