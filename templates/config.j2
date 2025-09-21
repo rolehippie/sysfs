@@ -1,11 +1,11 @@
 {% for item in sysfs_defaults + sysfs_extra %}
-{% if item.value | default(False) %}
+{% if item.value is defined %}
 {{ item.name }} = {{ item.value }}
 {% endif %}
-{% if item.mode | default(False) %}
+{% if item.mode is defined %}
 mode {{ item.name }} = {{ item.mode }}
 {% endif %}
-{% if item.owner | default(False) %}
+{% if item.owner is defined %}
 owner {{ item.name }} = {{ item.owner }}
 {% endif %}
 {% endfor %}
