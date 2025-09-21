@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/rolehippie/sysfs/compare/v2.0.0...v2.1.0) (2025-09-21)
+
+
+### Features
+
+* apply new repo structure and update linting ([94fa438](https://github.com/rolehippie/sysfs/commit/94fa438f794097452f10c5d773ab50481b2b75c3))
+
 ## [2.0.0](https://github.com/rolehippie/sysfs/compare/v1.0.0...v2.0.0) (2024-02-12)
 
 
