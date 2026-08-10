@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/sysfs/compare/v2.2.0...v2.3.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#53](https://github.com/rolehippie/sysfs/issues/53)) ([f6c580b](https://github.com/rolehippie/sysfs/commit/f6c580b5a34cd8d042ae4d15f75041779f34611e))
+* **patch:** update dependency python to v3.14.7 ([#51](https://github.com/rolehippie/sysfs/issues/51)) ([c7c6e67](https://github.com/rolehippie/sysfs/commit/c7c6e673424460f13422aae671d48730d3f09090))
+
 ## [2.2.0](https://github.com/rolehippie/sysfs/compare/v2.1.0...v2.2.0) (2026-07-27)
 
 ## [2.1.0](https://github.com/rolehippie/sysfs/compare/v2.0.0...v2.1.0) (2025-09-21)
