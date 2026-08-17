@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/sysfs/compare/v2.3.0...v2.4.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#56](https://github.com/rolehippie/sysfs/issues/56)) ([535ec50](https://github.com/rolehippie/sysfs/commit/535ec5018550e5ca0798d90017a3f3253848bc9f))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#57](https://github.com/rolehippie/sysfs/issues/57)) ([a5671e8](https://github.com/rolehippie/sysfs/commit/a5671e884d1fc097dc0319080d88a3f192135371))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#54](https://github.com/rolehippie/sysfs/issues/54)) ([0b9242b](https://github.com/rolehippie/sysfs/commit/0b9242b922a91222825e0fb21f52acaeedf1b2c5))
+* **patch:** update dependency pre-commit to v4.6.2 ([#55](https://github.com/rolehippie/sysfs/issues/55)) ([8ea925e](https://github.com/rolehippie/sysfs/commit/8ea925e35724118993f2386b663e9daa14b14713))
+
 ## [2.3.0](https://github.com/rolehippie/sysfs/compare/v2.2.0...v2.3.0) (2026-08-10)
 
 ### Dependencies
